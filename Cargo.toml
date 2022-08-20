@@ -17,4 +17,4 @@ cpi = ["no-entrypoint"]
 
 [dependencies]
 anchor-gen = { git = "https://github.com/everlastingsong/anchor-gen", branch = "yugure/add-versioning" }
-anchor-lang = ">=0.24.2"
+anchor-lang = { git = "https://github.com/project-serum/anchor", tag = "v0.20.1", package = "anchor-lang" }

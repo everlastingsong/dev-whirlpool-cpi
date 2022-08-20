@@ -1,6 +1,6 @@
 anchor_gen::generate_cpi_interface!(
   idl_path = "src/artifacts/idl.json",
-  target_anchor_version = "",
+  target_anchor_version = "0.20.1",
   zero_copy(TickArray, Tick),
   packed(TickArray, Tick)
 );
